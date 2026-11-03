@@ -45,7 +45,13 @@ text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.05);color:#334155}
 </style>''', unsafe_allow_html=True)
 
 st.sidebar.markdown(f'<div style="display:flex;align-items:center;gap:10px"><img src="{LOGO_URL}" style="height:40px"><b class="gradient-text">Customer Experience | ADMIN</b></div>', unsafe_allow_html=True)
-st.markdown(f'<div style="display:flex;justify-content:flex-end;gap:16px;align-items:center"><img src="{BRAND_URLS[0]}" style="height:62px"><img src="{BRAND_URLS[1]}" style="height:75px"></div>', unsafe_allow_html=True)
+
+st.markdown(
+    f'<div style="display:flex;justify-content:flex-end;align-items:center">'
+    f'<img src="{BRAND_URLS[0]}" style="height:75px">'
+    f'</div>',
+    unsafe_allow_html=True
+)
 
 # The 14 items follow the actual column titles and order in the source Sheet.
 ITEMS = [
