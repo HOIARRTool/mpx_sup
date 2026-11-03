@@ -1,4 +1,4 @@
-"""Patient Experience Dashboard: Administration & Support Services (MFU-MCH)."""
+"""Customer Experience Dashboard: Administration & Support Services (MFU-MCH)."""
 import html
 import os
 import re
