@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import streamlit as st
 
-st.set_page_config(page_title='Patient Experience | Administration & Support', layout='wide')
+st.set_page_config(page_title='Customer Experience | Administration & Support', layout='wide')
 pio.templates.default = 'plotly_white'
 
 SHEET_ID = '1Y-eivhlobS1e0otAxcoGW3yZZ8JT--TH4zVUGHxoFk4'
