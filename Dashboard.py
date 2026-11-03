@@ -20,7 +20,6 @@ BACKUP = 'admin_support.xlsx'
 
 LOGO_URL = 'https://raw.githubusercontent.com/HOIARRTool/hoiarr/main/logo1.png'
 BRAND_URLS = [
-    'https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018963411.jpg?raw=true',
     'https://github.com/HOIARRTool/appqtbi/blob/main/csm_logo_mfu_3d_colour_15e5a7a50f.png?raw=true',
 ]
 
