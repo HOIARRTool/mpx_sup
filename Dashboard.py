@@ -45,7 +45,7 @@ text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.05);color:#334155}
 [data-testid="stDataFrame"]{color-scheme:light}
 </style>''', unsafe_allow_html=True)
 
-st.sidebar.markdown(f'<div style="display:flex;align-items:center;gap:10px"><img src="{LOGO_URL}" style="height:40px"><b class="gradient-text">Patient Experience | ADMIN</b></div>', unsafe_allow_html=True)
+st.sidebar.markdown(f'<div style="display:flex;align-items:center;gap:10px"><img src="{LOGO_URL}" style="height:40px"><b class="gradient-text">Customer Experience | ADMIN</b></div>', unsafe_allow_html=True)
 st.markdown(f'<div style="display:flex;justify-content:flex-end;gap:16px;align-items:center"><img src="{BRAND_URLS[0]}" style="height:62px"><img src="{BRAND_URLS[1]}" style="height:75px"></div>', unsafe_allow_html=True)
 
 # The 14 items follow the actual column titles and order in the source Sheet.
@@ -251,7 +251,7 @@ def pct_gauge(title, percentage, n, key, low_good=False):
         st.caption(f'ผู้ตอบคำถามนี้ {n:,} ราย')
 
 st.title(f'DASHBOARD: {unit}')
-st.caption('Patient Experience Program | Administration & Support Services')
+st.caption('Customer Experience Program | Administration & Support Services')
 return_pct, return_n=pct_count('กลับมารับบริการหรือไม่','ใช่')
 refer_pct, refer_n=pct_count('แนะนำผู้อื่นหรือไม่','ใช่')
 dissat_pct, dissat_n=pct_count('มีความไม่พึงพอใจหรือไม่','มี')
